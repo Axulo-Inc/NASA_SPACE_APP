@@ -1,0 +1,6 @@
+@echo off
+echo Installing Python dependencies...
+pip install flask requests matplotlib numpy
+echo Setup complete! Run the demo...
+python app.py
+pause
